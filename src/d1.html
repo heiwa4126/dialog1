@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>Dialog Example</title>
+	</head>
+	<body>
+		<p>
+			引用元:
+			<a href="https://www.tak-dcxi.com/article/modal-implementation-in-2025/"
+			>JavaScriptを書かない2025年のモーダルの実装方法 – TAKLOG</a>
+		</p>
+		<button type="button" commandfor="my-dialog" command="show-modal">
+			モーダルを開く
+		</button>
+
+		<dialog
+			id="my-dialog"
+			closedby="any"
+			aria-labelledby="my-dialog-heading"
+			autofocus
+		>
+			<h1 id="my-dialog-heading">Heading</h1>
+			<p>Content</p>
+			<button type="button" commandfor="my-dialog" command="close">閉じる</button>
+		</dialog>
+	</body>
+</html>
