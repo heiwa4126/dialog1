@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "serve ./src",
-		"preview": "serve ./src"
+		"preview": "serve ./src",
+		"format": "biome format --write . && dprint fmt  && textlint --fix \"**/*.md\""
 	},
 	"keywords": [],
 	"author": "",
