@@ -21,8 +21,8 @@ pnpm i
 pnpm start
 ```
 
-で開発用サーバ([serve - npm](https://www.npmjs.com/package/serve))が起動するので、
-<http://localhost:3000/>
+で開発用サーバ([http-server - npm](https://www.npmjs.com/package/http-server))が起動するので、
+<http://localhost:8080/>
 をブラウザで開く。インデックスページになってるので、d1.html などを開く
 
 ## 参考

@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "serve ./src",
-		"preview": "serve ./src",
+		"start": "http-server ./src",
+		"preview": "http-server ./src",
 		"format": "biome format --write . && dprint fmt  && textlint --fix \"**/*.md\""
 	},
 	"keywords": [],
@@ -13,6 +13,6 @@
 	"license": "ISC",
 	"packageManager": "pnpm@10.11.0",
 	"devDependencies": {
-		"serve": "^14.2.4"
+		"http-server": "^14.1.1"
 	}
 }
